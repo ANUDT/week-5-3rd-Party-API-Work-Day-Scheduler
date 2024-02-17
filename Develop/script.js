@@ -1,18 +1,14 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
+function formatDate(dateObject) {
+}
+ 
+const dayJsObject = dayjs();
 
-const myDate = new Date ("17/02/2024 08:12");
-const myDateFormatted = formatDate(myDate);
-
-console.log(myDateFormatted);
+console.log(dayJsObject.format(DD/MM/YYYY))
 
 
 
 
 
-
-$(function () {
     
 
   // TODO: Add a listener for click events on the save button. This code should
