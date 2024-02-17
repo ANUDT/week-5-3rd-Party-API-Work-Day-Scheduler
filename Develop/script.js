@@ -68,12 +68,12 @@ const d = new Date();
 document.getElementById("demo").innerHTML = d;
 
 function saveDayChanges(){
-  let choosenDayAsString = JSON.stringify(choosenDay);
+let choosenDayAsString = JSON.stringify(choosenDay);
 localStorage.setItem("choosenDay", JSON.stringify(choosenDay));
 
 
 choosenDayAsString=localStorage.getItem('choosenDay');
-const choosenDayAsObject=JSON.parse(choosenDayAsString);
+const choosenDayAsObject=JSON.parse(localStorage.getItem("choosenDayAsString"));
 console.log(choosenDayAsObject);
 
 }
@@ -82,6 +82,13 @@ function displayReminders(){
   choosenDay.forEach(function (_thisHour) {
     $(`#${_thisHour.id}`).val(_thisHour.reminder);
     })
+}
+
+document
+.getElementById("currentDay")
+.addEventListener("submit",function (event){
+  event.preventDefault();
+
 }
 
 
