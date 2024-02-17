@@ -1,22 +1,6 @@
-function formatDate(dateObject) {
-}
-const parts = {
-  date: dateObject.getDate(),
-  month: dateObject.getMonth() + 1,
-  year: dateObject.getFullYear(),
-  hour: (dateObject.getHours() % 12) || 12,
-  minute: dateObject.getMinutes().toString().padStart(2, "0").
-    amOrPm: dateObject.getHours() < 12 ? "AM" : "PM"
-};
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
 
-return '${parts.date}/${parts.month} ${parts.hour}:${patrs.minute} ${parts.amOrPm}';
-
-const myDate = new Date("2024-02-17 06:00");
-const myDateFormatted = formatDate(myDate);
-
-const dayJsObject = dayjs("");
-
-console.log(dayJsObject.format(DD / MM / YYYY h:mm A));
 
 
 
