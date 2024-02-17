@@ -67,6 +67,11 @@ var choosenDay = [
 const d = new Date();
 document.getElementById("demo").innerHTML = d;
 
+function saveDayChanges(){
+  localStorage.setItem("choosenDay", JSON.stringify(choosenDay)):
+}
+
+
 
 
 
