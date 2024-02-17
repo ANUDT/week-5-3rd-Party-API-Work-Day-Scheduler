@@ -1,6 +1,19 @@
 function formatDate(dateObject) {
 }
+const parts = {
+  date: dateObject.getDate(),
+  month: dateObject.getMonth() + 1,
+  year: dateObject.getFullYear(),
+  hour: (dateObject.getHours() % 12) || 12,
+  minute: dateObject.getMinutes().toString().padStart(2,  "0").
+  amOrPm: dateObject.getHours() < 12 ? "AM" :"PM"
+};
  
+return '${parts.date}/${parts.month} ${parts.hour}:${patrs.minute} ${parts.amOrPm}';
+
+const myDate = new Date("2024-02-17 06:00");
+const myDateFormatted = formatDate(myDate);
+
 const dayJsObject = dayjs();
 
 console.log(dayJsObject.format(DD/MM/YYYY))
@@ -29,4 +42,3 @@ console.log(dayJsObject.format(DD/MM/YYYY))
   // attribute of each time-block be used to do this?
   //
   // TODO: Add code to display the current date in the header of the page.
-});
