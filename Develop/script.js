@@ -71,6 +71,11 @@ function saveDayChanges(){
   localStorage.setItem("choosenDay", JSON.stringify(choosenDay));
 }
 
+function displayReminders(){
+  choosenDay.forEach(function (_thisHour) {
+    $(`#${_thisHour.id}`).val(_thisHour.reminder);
+    })
+}
 
 
 
