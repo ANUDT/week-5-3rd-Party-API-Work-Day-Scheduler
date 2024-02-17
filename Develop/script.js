@@ -68,7 +68,14 @@ const d = new Date();
 document.getElementById("demo").innerHTML = d;
 
 function saveDayChanges(){
-  localStorage.setItem("choosenDay", JSON.stringify(choosenDay));
+  let choosenDayAsString = JSON.stringify(choosenDay);
+localStorage.setItem("choosenDay", JSON.stringify(choosenDay));
+
+
+choosenDayAsString=localStorage.getItem('choosenDay');
+const choosenDayAsObject=JSON.parse(choosenDayAsString);
+console.log(choosenDayAsObject);
+
 }
 
 function displayReminders(){
