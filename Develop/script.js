@@ -1,6 +1,70 @@
 const d = new Date();
 document.getElementById("demo").innerHTML = d;
 
+var choosenDay = [
+  {
+    id: "0",
+    hour: "09",
+    time:"09",
+    timeZone: "am",
+    reminder:""
+  },
+  {
+    id: "0",
+    hour: "10",
+    time:"10",
+    timeZone: "am",
+    reminder:""
+  },
+  {
+    id: "0",
+    hour: "11",
+    time:"11",
+    timeZone: "am",
+    reminder:""
+  },
+  {
+    id: "0",
+    hour: "12",
+    time:"12",
+    timeZone: "am",
+    reminder:""
+  },
+  {
+    id: "0",
+    hour: "1",
+    time:"1",
+    timeZone: "pm",
+    reminder:""
+  },
+  {
+    id: "0",
+    hour: "2",
+    time:"2",
+    timeZone: "pm",
+    reminder:""
+  },
+  {
+    id: "0",
+    hour: "3",
+    time:"3",
+    timeZone: "pm",
+    reminder:""
+  },
+  {
+    id: "0",
+    hour: "4",
+    time:"4",
+    timeZone: "pm",
+    reminder:""
+  },
+
+
+
+
+
+]
+}
 
 
 
