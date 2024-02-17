@@ -1,70 +1,70 @@
-const d = new Date();
-document.getElementById("demo").innerHTML = d;
-
 var choosenDay = [
   {
     id: "0",
     hour: "09",
-    time:"09",
+    time: "09",
     timeZone: "am",
-    reminder:""
+    reminder: ""
   },
   {
-    id: "0",
+    id: "1",
     hour: "10",
-    time:"10",
+    time: "10",
     timeZone: "am",
-    reminder:""
+    reminder: ""
   },
   {
-    id: "0",
+    id: "2",
     hour: "11",
-    time:"11",
+    time: "11",
     timeZone: "am",
-    reminder:""
+    reminder: ""
   },
   {
-    id: "0",
+    id: "3",
     hour: "12",
-    time:"12",
+    time: "12",
     timeZone: "am",
-    reminder:""
+    reminder: ""
   },
   {
-    id: "0",
+    id: "4",
     hour: "1",
-    time:"1",
+    time: "1",
     timeZone: "pm",
-    reminder:""
+    reminder: ""
   },
   {
-    id: "0",
+    id: "5",
     hour: "2",
-    time:"2",
+    time: "2",
     timeZone: "pm",
-    reminder:""
+    reminder: ""
   },
   {
-    id: "0",
+    id: "6",
     hour: "3",
-    time:"3",
+    time: "3",
     timeZone: "pm",
-    reminder:""
+    reminder: ""
   },
   {
-    id: "0",
+    id: "7",
     hour: "4",
-    time:"4",
+    time: "4",
     timeZone: "pm",
-    reminder:""
+    reminder: ""
   },
-
-
-
-
-
+  {
+    id: "8",
+    hour: "5",
+    time: "5",
+    timeZone: "pm",
+    reminder: ""
+  },
 ]
-}
+
+
 
 
 
