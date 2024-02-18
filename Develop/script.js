@@ -104,6 +104,32 @@ for(var i = 9;i<17;i++){
   $('#hour-'+i+' .description').val(localStorage.getItem('hour-'+i)) 
 }
 
+function hourUpdater() {
+  // get current number of hours
+  var currentHour = dayjs().hour();
+console.log(currentHour);
+
+  // loop over time blocks
+  $('.time-block').each(function () {
+    var blockHour = parseInt($(this).attr('id').split('-')[1]);
+
+    // check if we've moved past this time
+    if (blockHour < currentHour) {
+      $(this).addClass('past');
+      console.log("past")
+    } else if (blockHour === currentHour) {
+      $(this).removeClass('past');
+      $(this).removeClass('future');
+      $(this).addClass('present');
+    } else {
+      $(this).removeClass('past');
+      $(this).removeClass('present');
+      $(this).addClass('future');
+    }
+  });
+}
+
+hourUpdater();
 
 
 // TODO: Add a listener for click events on the save button. This code should

@@ -32,19 +32,7 @@
             <div class="container-lg px-5">
             <p id="demo"></p>
           
-          
-      <!-- Use class for "past", "present", and "future" to apply styles to the
-        time-block divs accordingly. The javascript will need to do this by
-        adding/removing these classes on each div by comparing the hour in the
-        id to the current hour. The html provided below is meant to be an example
-        demonstrating how the css provided can be leveraged to create the
-        desired layout and colors. The html below should be removed or updated
-        in the finished product. Remember to delete this comment once the
-        code is implemented.
-        -->
-
-      <!-- Example of a past time block. The "past" class adds a gray background color. -->
-      <div id="hour-9" class="row time-block past">
+                <div id="hour-9" class="row time-block">
       <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"></textarea>
           <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -52,8 +40,8 @@
          </button>
         </div>
          
-      <!-- Example of a a present time block. The "present" class adds a red background color. -->
-      <div id="hour-10" class="row time-block present">
+   
+      <div id="hour-10" class="row time-block ">
         <div class="col-2 col-md-1 hour text-center py-3">10AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -61,8 +49,8 @@
         </button>
       </div>
 
-      <!-- Example of a future time block. The "future" class adds a green background color. -->
-      <div id="hour-11" class="row time-block future">
+
+      <div id="hour-11" class="row time-block ">
         <div class="col-2 col-md-1 hour text-center py-3">11AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -70,7 +58,7 @@
         </button>
       </div>
 
-      <div id="hour-9" class="row time-block past">
+      <div id="hour-12" class="row time-block ">
         <div class="col-2 col-md-1 hour text-center py-3">12AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -78,8 +66,8 @@
         </button>
       </div>
 
-      <!-- Example of a a present time block. The "present" class adds a red background color. -->
-      <div id="hour-10" class="row time-block present">
+
+      <div id="hour-13" class="row time-block ">
         <div class="col-2 col-md-1 hour text-center py-3">1PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -87,8 +75,8 @@
         </button>
       </div>
 
-      <!-- Example of a future time block. The "future" class adds a green background color. -->
-      <div id="hour-11" class="row time-block future">
+
+      <div id="hour-14" class="row time-block future">
         <div class="col-2 col-md-1 hour text-center py-3">2PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -96,7 +84,7 @@
         </button>
       </div>
 
-      <div id="hour-9" class="row time-block past">
+      <div id="hour-15" class="row time-block past">
         <div class="col-2 col-md-1 hour text-center py-3">3PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -104,8 +92,8 @@
         </button>
       </div>
 
-      <!-- Example of a a present time block. The "present" class adds a red background color. -->
-      <div id="hour-10" class="row time-block present">
+  
+      <div id="hour-16" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">4PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -113,8 +101,8 @@
         </button>
       </div>
 
-      <!-- Example of a future time block. The "future" class adds a green background color. -->
-      <div id="hour-11" class="row time-block future">
+
+      <div id="hour-17" class="row time-block ">
         <div class="col-2 col-md-1 hour text-center py-3">5PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -122,34 +110,6 @@
         </button>
       </div>
 
- <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
- SAVE CHANGES
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-toggle="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium 
-          beatae labore molestiae illum quam 
-          consequuntur repudiandae dolor minus fugit, vero at ipsam ad laboriosam 
-          distinctio eaque amet voluptates recusandae voluptatem!</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-toggle="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script
