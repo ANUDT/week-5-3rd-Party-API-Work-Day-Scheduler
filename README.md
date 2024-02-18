@@ -34,9 +34,6 @@ THEN the saved events persist
 
 The following animation demonstrates the application functionality:
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
-
 ## Grading Requirements
 
 > **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
@@ -98,3 +95,8 @@ You are required to submit the following for review:
 - - -
 © 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 # week-5-3rd-Party-API-Work-Day-Scheduler
+
+https://github.com/ANUDT/week-5-3rd-Party-API-Work-Day-Scheduler.git
+https://github.com/ANUDT/week-5-3rd-Party-API-Work-Day-Scheduler
+
+![alt text](image.png)
