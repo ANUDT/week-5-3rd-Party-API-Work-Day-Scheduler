@@ -23,7 +23,7 @@
        <title>Work Day Scheduler</title>
     
   <body>
-
+    <div class="jumbotron-fluid">
     <header class="p-5 mb-4 border-5 border-bottom border-dark text-center">
       <h1 class="display-3">Work Day Scheduler</h1>
        <p id="currentDay" class="lead"></p>
@@ -50,8 +50,8 @@
           <button class="btn saveBtn col-2 col-md-1" aria-label="save">
            <i class="fas fa-save" aria-hidden="true"></i>
          </button>
-      </div>
-   
+        </div>
+         
       <!-- Example of a a present time block. The "present" class adds a red background color. -->
       <div id="hour-10" class="row time-block present">
         <div class="col-2 col-md-1 hour text-center py-3">10AM</div>
@@ -121,6 +121,15 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
+
+      <footer>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div></footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script
