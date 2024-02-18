@@ -68,13 +68,18 @@ const d = new Date();
 document.getElementById("demo").innerHTML = d;
 
 function saveDayChanges(){
-let choosenDayAsString = JSON.stringify(choosenDay);
-localStorage.setItem("choosenDay", JSON.stringify(choosenDay));
+  var value = $(this).siblings('.description').val();
+    var time = $(this).parent().attr('id');
 
-alert("SAVE");
-choosenDayAsString=localStorage.getItem('choosenDay');
-const choosenDayAsObject=JSON.parse(localStorage.getItem("choosenDayAsString"));
-console.log(choosenDayAsObject);
+    // save in localStorage
+    localStorage.setItem(time, value);
+// let choosenDayAsString = JSON.stringify(choosenDay);
+// localStorage.setItem("choosenDay", JSON.stringify(choosenDay));
+
+// alert("SAVE");
+// choosenDayAsString=localStorage.getItem('choosenDay');
+// const choosenDayAsObject=JSON.parse(localStorage.getItem("choosenDayAsString"));
+// console.log(choosenDayAsObject);
 }
 
 function displayReminders(){
@@ -93,9 +98,11 @@ $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
 });
 
+$(".saveBtn").on("click",saveDayChanges)
 
-
-
+for(var i = 9;i<17;i++){
+  $('#hour-'+i+' .description').val(localStorage.getItem('hour-'+i)) 
+}
 
 
 
