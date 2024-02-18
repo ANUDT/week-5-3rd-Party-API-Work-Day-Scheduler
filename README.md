@@ -93,7 +93,6 @@ You are required to submit the following for review:
 * The URL of the GitHub repository, with a unique name and a README describing the project
 
 - - -
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 # week-5-3rd-Party-API-Work-Day-Scheduler
 
 https://github.com/ANUDT/week-5-3rd-Party-API-Work-Day-Scheduler.git
