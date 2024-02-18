@@ -97,6 +97,9 @@ You are required to submit the following for review:
 # week-5-3rd-Party-API-Work-Day-Scheduler
 
 https://github.com/ANUDT/week-5-3rd-Party-API-Work-Day-Scheduler.git
+
 https://github.com/ANUDT/week-5-3rd-Party-API-Work-Day-Scheduler
+
+https://anudt.github.io/week-5-3rd-Party-API-Work-Day-Scheduler/
 
 ![alt text](image.png)
